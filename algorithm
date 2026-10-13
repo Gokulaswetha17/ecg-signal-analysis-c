@@ -1,0 +1,18 @@
+1. Start the program.
+2. Define the maximum number of readings as 100, the lower heart-rate limit as 60 BPM, and the upper limit as 100 BPM.
+3. Define a structure to store heart-rate readings and a function to analyze them.
+4. Read the number of heart-rate readings from the user.
+5. Check whether the number of readings is valid. If invalid, display an error message and stop.
+6. Use a loop to input multiple heart-rate readings.
+7. Validate each reading. If a reading is invalid, display an error message and stop.
+8. Initialize the minimum and maximum values with the first reading and set the sum to zero.
+9. For each reading:
+   - Add the reading to the sum.
+   - Update the minimum and maximum values.
+   - If the reading is below 60 BPM, display a Low Heart Rate Alert.
+   - If the reading is above 100 BPM, display a High Heart Rate Alert.
+   - Otherwise, display that the reading is within the configured limits.
+10. Calculate the average heart rate by dividing the sum of all readings by the number of readings.
+11. Display all readings with their alert status, minimum heart rate, maximum heart rate, and average heart rate.
+12. Stop the program.
+
